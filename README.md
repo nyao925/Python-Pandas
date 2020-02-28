@@ -8,4 +8,5 @@
 
 Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 
-01_Pandas.DataFrame的行名和列名的修改
+01_Pandas.DataFrame的行名和列名的修改\
+02_Pandas.concat连接DataFrame,Series
