@@ -12,4 +12,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 02_Pandas.concat连接DataFrame,Series\
 03_Pandas读取csv/tsv文件（read_csv，read_table）\
 04_Pandas获取和修改任意位置的值（at,iat,loc,iloc）\
-05_Pandas删除，替换并提取其中的缺失值NaN
+05_Pandas删除，替换并提取其中的缺失值NaN \
+06_Pandas中map(),applymap(),apply()函数的使用方法
