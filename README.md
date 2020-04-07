@@ -14,4 +14,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 04_Pandas获取和修改任意位置的值（at,iat,loc,iloc）\
 05_Pandas删除，替换并提取其中的缺失值NaN \
 06_Pandas中map(),applymap(),apply()函数的使用方法 \
-07_pandas.DataFrame的for循环处理（迭代）
+07_pandas.DataFrame的for循环处理（迭代）\
+08_Pandas提取含有指定字符串的行（完全匹配，部分匹配）
