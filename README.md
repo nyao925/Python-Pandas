@@ -15,4 +15,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 05_Pandas删除，替换并提取其中的缺失值NaN \
 06_Pandas中map(),applymap(),apply()函数的使用方法 \
 07_pandas.DataFrame的for循环处理（迭代）\
-08_Pandas提取含有指定字符串的行（完全匹配，部分匹配）
+08_Pandas提取含有指定字符串的行（完全匹配，部分匹配）\
+09_Pandas从多个条件中提取（选择）行（AND，OR，NOT）
