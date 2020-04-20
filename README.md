@@ -17,5 +17,6 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 07_pandas.DataFrame的for循环处理（迭代）\
 08_Pandas提取含有指定字符串的行（完全匹配，部分匹配）\
 09_Pandas从多个条件（AND，OR，NOT）中提取行 \
-10_Pandas使用分隔符或正则表达式将字符串拆分为多列
+10_Pandas使用分隔符或正则表达式将字符串拆分为多列 \
+11_Pandas.DataFrame中组合多个列的字符串来创建新列
 
