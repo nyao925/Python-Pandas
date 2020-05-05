@@ -19,4 +19,6 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 09_Pandas从多个条件（AND，OR，NOT）中提取行 \
 10_Pandas使用分隔符或正则表达式将字符串拆分为多列 \
 11_Pandas.DataFrame中组合多个列的字符串来创建新列 \
-12_Pandas.DataFrame删除指定行和列（drop）
+12_Pandas.DataFrame删除指定行和列（drop） \
+13_Pandas字符串的替换和空格处删除等方法 \
+14_Pandas.DataFrame行和列的转置.md
