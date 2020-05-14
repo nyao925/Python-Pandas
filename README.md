@@ -22,4 +22,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 12_Pandas.DataFrame删除指定行和列（drop） \
 13_Pandas字符串的替换和空格处删除等方法 \
 14_Pandas.DataFrame行和列的转置.md \
-15_Pandas计算元素的数量和频率（出现的次数）
+15_Pandas计算元素的数量和频率（出现的次数）\
+16_Pandas.DataFrame计算统计信息并按GroupBy分组
