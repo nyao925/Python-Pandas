@@ -23,4 +23,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 13_Pandas字符串的替换和空格处删除等方法 \
 14_Pandas.DataFrame行和列的转置.md \
 15_Pandas计算元素的数量和频率（出现的次数）\
-16_Pandas.DataFrame计算统计信息并按GroupBy分组
+16_Pandas.DataFrame计算统计信息并按GroupBy分组\
+17_pandas.DataFrame，Series排序（sort_values，sort_index）
