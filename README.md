@@ -25,4 +25,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 15_Pandas计算元素的数量和频率（出现的次数）\
 16_Pandas.DataFrame计算统计信息并按GroupBy分组\
 17_pandas.DataFrame，Series排序（sort_values，sort_index）\
-18_Pandas.DataFrame，取得Series的头和尾（head和tail）
+18_Pandas.DataFrame，取得Series的头和尾（head和tail）\
+19_Pandas随机抽取行和列的样本（sample）
