@@ -28,4 +28,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 18_Pandas.DataFrame，取得Series的头和尾（head和tail）\
 19_Pandas随机抽取行和列的样本（sample）\
 20_Pandas.DataFrame中Series行的随机洗牌\
-21_Pandas.DataFrame,重置Series的索引index(reset_index)
+21_Pandas.DataFrame,重置Series的索引index(reset_index)\
+22_Pandas.DataFrame,重置列的行名(set_index）
