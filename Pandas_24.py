@@ -178,6 +178,7 @@ print(df)
 # 4    Ellen   24    CA     88
 # 5    Frank   30    NY     57
 '''替换缺失值NaN'''
+
 '''变更原始项目'''
 df = pd.read_csv('./data/24/sample_pandas_normal.csv')
 print(df)
