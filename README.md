@@ -31,4 +31,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 21_Pandas.DataFrame,重置Series的索引index(reset_index)\
 22_Pandas.DataFrame,重置列的行名(set_index）\
 23_Pandas.DataFrame,Series中提取・删除重复行\
-24_Pandas.DataFrame,Series元素值的替换（replace）
+24_Pandas.DataFrame,Series元素值的替换（replace）\
+25_Pandas从MultiIndex中选择并提取任何行和列
