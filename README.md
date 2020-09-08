@@ -33,4 +33,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 23_Pandas.DataFrame,Series中提取・删除重复行\
 24_Pandas.DataFrame,Series元素值的替换（replace）\
 25_Pandas从MultiIndex中选择并提取任何行和列\
-26_Pandas.DataFrame时间序列数据的处理
+26_Pandas.DataFrame时间序列数据的处理\
+27_Pandas按星期，月份，季度和年份的天计算时间序列数据的总计和平均值
