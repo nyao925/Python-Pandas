@@ -36,4 +36,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 26_Pandas.DataFrame时间序列数据的处理\
 27_Pandas按星期，月份，季度和年份的天计算时间序列数据的总计和平均值\
 28_Pandas通过index选择并获取行和列\
-29_pandas.DataFrame中提取（选择）特定类型dtype的列
+29_pandas.DataFrame中提取（选择）特定类型dtype的列\
+30_Pandas.DataFrame提取（选择）指定行名和列名的行和列
