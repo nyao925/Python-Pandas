@@ -39,4 +39,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 29_pandas.DataFrame中提取（选择）特定类型dtype的列\
 30_Pandas.DataFrame提取（选择）指定行名和列名的行和列\
 31_Pandas.DataFrame，Series和NumPy数组ndarray相互转换\
-32_Pandas『Python Data Science Handbook』（英文的免费在线版本）
+32_Pandas『Python Data Science Handbook』（英文的免费在线版本）\
+33_Pandas.DataFrame，Series和Python标准列表的相互转换
