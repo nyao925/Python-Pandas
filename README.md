@@ -42,4 +42,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 32_Pandas『Python Data Science Handbook』（英文的免费在线版本）\
 33_Pandas.DataFrame，Series和Python标准列表的相互转换\
 34_Pandas对CSV文件内容的导出和添加（to_csv）\
-35_Pandas计算满足特定条件的元素的数量
+35_Pandas计算满足特定条件的元素的数量\
+36_Pandas获取行数，列数和元素总数（大小）
