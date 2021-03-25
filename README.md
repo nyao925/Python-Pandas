@@ -45,4 +45,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 35_Pandas计算满足特定条件的元素的数量\
 36_Pandas获取行数，列数和元素总数（大小）\
 37_Pandas中Multiindex的指定，添加，取消，排序，级别的更改\
-38_Pandas中Multiindex的计算每层的统计数据和样本大小
+38_Pandas中Multiindex的计算每层的统计数据和样本大小\
+39_Pandas.Serise用map方法替换列元素
