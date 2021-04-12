@@ -46,4 +46,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 36_Pandas获取行数，列数和元素总数（大小）\
 37_Pandas中Multiindex的指定，添加，取消，排序，级别的更改\
 38_Pandas中Multiindex的计算每层的统计数据和样本大小\
-39_Pandas.Serise用map方法替换列元素
+39_Pandas.Serise用map方法替换列元素\
+40_Pandas中crosstab进行交叉制表（计算每个类别的出现次数和频率）
