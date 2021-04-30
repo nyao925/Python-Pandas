@@ -48,4 +48,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 38_Pandas中Multiindex的计算每层的统计数据和样本大小\
 39_Pandas.Serise用map方法替换列元素\
 40_Pandas中crosstab进行交叉制表（计算每个类别的出现次数和频率）\
-41_Pandas使用数据透视表计算每个类别的统计信息
+41_Pandas使用数据透视表计算每个类别的统计信息\
+42_Pandas字符串中提取正则表达式来生成新列
