@@ -50,4 +50,5 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 40_Pandas中crosstab进行交叉制表（计算每个类别的出现次数和频率）\
 41_Pandas使用数据透视表计算每个类别的统计信息\
 42_Pandas字符串中提取正则表达式来生成新列\
-43_Pandas版本的检查（pd.show_versions）
+43_Pandas版本的检查（pd.show_versions）\
+44_Pandas将分类变量转换为虚拟变量(get_dummies)
