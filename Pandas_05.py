@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import math
 
-df = pd.read_csv('./data/05/sample_pandas_normal_nan.csv')
+df = pd.read_csv('./data/sample_pandas_normal_nan.csv')
 print(df)
 #       name   age state  point  other
 # 0    Alice  24.0    NY    NaN    NaN
@@ -13,7 +13,7 @@ print(df)
 # 5    Frank  30.0   NaN    NaN    NaN
 
 '''Pandas中缺少值NaN的介绍'''
-df = pd.read_csv('./data/05/sample_pandas_normal_nan.csv')
+df = pd.read_csv('./data/sample_pandas_normal_nan.csv')
 print(df)
 #       name   age state  point  other
 # 0    Alice  24.0    NY    NaN    NaN

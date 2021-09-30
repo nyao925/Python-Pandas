@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/22/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 print(df)
 #       name  age state  point
 # 0    Alice   24    NY     64
@@ -145,7 +145,7 @@ print(df)
 # Frank     30    NY     57
 
 '''读取csv文件等时指定索引'''
-df = pd.read_csv('./data/22/sample_pandas_normal.csv', index_col=0)
+df = pd.read_csv('./data/sample_pandas_normal.csv', index_col=0)
 print(df)
 #          age state  point
 # name

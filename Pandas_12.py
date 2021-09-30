@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/12/sample_pandas_normal.csv', index_col=0)
+df = pd.read_csv('./data/sample_pandas_normal.csv', index_col=0)
 print(df)
 #          age state  point
 # name
@@ -73,7 +73,7 @@ print(df.drop(index=df.index[[1, 3, 5]]))
 # Ellen     24    CA     88
 
 ###未设置行名的注意事项
-df_noindex = pd.read_csv('./data/12/sample_pandas_normal.csv')
+df_noindex = pd.read_csv('./data/sample_pandas_normal.csv')
 print(df_noindex)
 #       name  age state  point
 # 0    Alice   24    NY     64

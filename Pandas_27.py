@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/27/sample_date.csv', index_col=0, parse_dates=True)
+df = pd.read_csv('./data/sample_date.csv', index_col=0, parse_dates=True)
 print(df)
 #             val_1  val_2
 # date

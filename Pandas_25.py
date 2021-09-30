@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/25/sample_multi.csv', index_col=[0, 1, 2])
+df = pd.read_csv('./data/sample_multi.csv', index_col=[0, 1, 2])
 print(df)
 #                          val_1  val_2
 # level_1 level_2 level_3

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('./data/15/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 df.iloc[1] = np.nan
 print(df)
 #       name   age state  point

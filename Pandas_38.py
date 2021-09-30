@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/38/train.csv')
+df = pd.read_csv('./data/train.csv')
 
 df.drop(labels=['Name', 'Ticket', 'Cabin'], axis=1, inplace=True)
 

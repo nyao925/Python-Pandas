@@ -1,7 +1,7 @@
 '''如何将一列现有数据指定为DatetimeIndex'''
 import pandas as pd
 
-df = pd.read_csv('./data/26/sample_date.csv')
+df = pd.read_csv('./data/sample_date.csv')
 print(df)
 #           date  val_1  val_2
 # 0   2017-11-01     65     76
@@ -83,7 +83,7 @@ print(df.loc['20180103', 'val_2'])
 # 76
 
 '''读取CSV时如何指定DatetimeIndex'''
-df = pd.read_csv('./data/26/sample_date.csv', index_col='date', parse_dates=True)
+df = pd.read_csv('./data/sample_date.csv', index_col='date', parse_dates=True)
 print(df)
 #             val_1  val_2
 # date
@@ -105,7 +105,7 @@ print(type(df.index))
 
 parser = lambda date: pd.to_datetime(date, format='%Y年%m月%d日')
 
-df_jp = pd.read_csv('./data/26/sample_date_cn.csv', index_col='date', parse_dates=True, date_parser=parser)
+df_jp = pd.read_csv('./data/sample_date_cn.csv', index_col='date', parse_dates=True, date_parser=parser)
 print(df_jp)
 #             val_1  val_2
 # date
@@ -126,7 +126,7 @@ print(type(df_jp.index))
 # <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
 
 '''关于pandas.Series'''
-s = pd.read_csv('./data/26/sample_date.csv', index_col=0, usecols=[0, 1], squeeze=True)
+s = pd.read_csv('./data/sample_date.csv', index_col=0, usecols=[0, 1], squeeze=True)
 print(s)
 # date
 # 2017-11-01    65

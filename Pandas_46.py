@@ -10,7 +10,7 @@ sns.heatmap(list_2d)
 
 plt.figure()
 sns.heatmap(list_2d)
-plt.savefig('./data/46/seaborn_heatmap_list.png')
+plt.savefig('./data/seaborn_heatmap_list.png')
 plt.close('all')
 
 arr_2d = np.arange(-8, 8).reshape((4, 4))
@@ -22,7 +22,7 @@ print(arr_2d)
 
 plt.figure()
 sns.heatmap(arr_2d)
-plt.savefig('./data/46/seaborn_heatmap_ndarray.png')
+plt.savefig('./data/seaborn_heatmap_ndarray.png')
 
 df = pd.DataFrame(data=arr_2d, index=['a', 'b', 'c', 'd'], columns=['A', 'B', 'C', 'D'])
 print(df)
@@ -34,7 +34,7 @@ print(df)
 
 plt.figure()
 sns.heatmap(df)
-plt.savefig('./data/46/seaborn_heatmap_dataframe.png')
+plt.savefig('./data/seaborn_heatmap_dataframe.png')
 
 print(type(sns.heatmap(list_2d)))
 # <class 'matplotlib.axes._subplots.AxesSubplot'>
@@ -42,12 +42,12 @@ print(type(sns.heatmap(list_2d)))
 fig = plt.figure()
 ax = fig.add_subplot(1, 1, 1)
 sns.heatmap(list_2d, ax=ax)
-fig.savefig('./data/46/seaborn_heatmap_list.png')
+fig.savefig('./data/seaborn_heatmap_list.png')
 
 fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(8, 6))
 sns.heatmap(list_2d, ax=axes[0, 0])
 sns.heatmap(arr_2d, ax=axes[1, 2])
-fig.savefig('./data/46/seaborn_heatmap_list_sub.png')
+fig.savefig('./data/seaborn_heatmap_list_sub.png')
 
 sns.heatmap(df, annot=True)
 
@@ -69,7 +69,7 @@ print(current_figsize)
 
 plt.figure(figsize=(9, 6))
 sns.heatmap(df, square=True)
-plt.savefig('./data/46/seaborn_heatmap_big.png')
+plt.savefig('./data/seaborn_heatmap_big.png')
 
 current_dpi = mpl.rcParams['figure.dpi']
 print(current_dpi)
@@ -77,4 +77,4 @@ print(current_dpi)
 
 plt.figure()
 sns.heatmap(df, square=True)
-plt.savefig('./data/46/seaborn_heatmap_big_2.png', dpi=current_dpi * 1.5)
+plt.savefig('./data/seaborn_heatmap_big_2.png', dpi=current_dpi * 1.5)

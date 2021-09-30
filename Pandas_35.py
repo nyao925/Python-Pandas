@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/35/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 
 print(df)
 #       name  age state  point
@@ -198,7 +198,7 @@ print(df_str['name'].str.endswith('e'))
 print(df_str['name'].str.endswith('e').sum())
 # 3
 
-df = pd.read_csv('./data/35/train.csv')
+df = pd.read_csv('./data/train.csv')
 
 print(df.head())
 #    PassengerId  Survived  Pclass  \

@@ -1,7 +1,7 @@
 '''替换元素'''
 import pandas as pd
 
-df = pd.read_csv('./data/24/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 df.iloc[1, 3] = 24
 print(df)
 #       name  age state  point
@@ -180,7 +180,7 @@ print(df)
 '''替换缺失值NaN'''
 
 '''变更原始项目'''
-df = pd.read_csv('./data/24/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 print(df)
 #       name  age state  point
 # 0    Alice   24    NY     64

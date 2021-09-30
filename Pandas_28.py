@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/28/sample_pandas_normal.csv', index_col=0)
+df = pd.read_csv('./data/sample_pandas_normal.csv', index_col=0)
 print(df)
 #          age state  point
 # name

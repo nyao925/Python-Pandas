@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/34/sample_pandas_normal.csv', index_col=0)
+df = pd.read_csv('./data/sample_pandas_normal.csv', index_col=0)
 
 print(df)
 #          age state  point
@@ -12,20 +12,20 @@ print(df)
 # Ellen     24    CA     88
 # Frank     30    NY     57
 
-df.to_csv('./data/34/to_csv_out.csv')
+df.to_csv('./data/to_csv_out.csv')
 
-df.to_csv('./data/34/to_csv_out_columns.csv', columns=['age'])
+df.to_csv('./data/to_csv_out_columns.csv', columns=['age'])
 
-df.to_csv('./data/34/to_csv_out_header_index.csv', header=False, index=False)
+df.to_csv('./data/to_csv_out_header_index.csv', header=False, index=False)
 
-df.to_csv('./data/34/to_csv_out.tsv', sep='\t')
+df.to_csv('./data/to_csv_out.tsv', sep='\t')
 
-df.to_csv('./data/34/to_csv_out_a.csv')
-df.to_csv('./data/34/to_csv_out_a.csv', mode='a', header=False)
+df.to_csv('./data/to_csv_out_a.csv')
+df.to_csv('./data/to_csv_out_a.csv', mode='a', header=False)
 
-df.to_csv('./data/34/to_csv_out_a_new_column.csv')
+df.to_csv('./data/to_csv_out_a_new_column.csv')
 
-df = pd.read_csv('./data/34/to_csv_out_a_new_column.csv', index_col=0)
+df = pd.read_csv('./data/to_csv_out_a_new_column.csv', index_col=0)
 
 print(df)
 #          age state  point
@@ -49,7 +49,7 @@ print(df)
 # Ellen     24    CA     88  new data
 # Frank     30    NY     57  new data
 
-df.to_csv('./data/34/to_csv_out_a_new_column.csv')
+df.to_csv('./data/to_csv_out_a_new_column.csv')
 
 df = pd.DataFrame({'col1': [0.123456789, 1000000000.0],
                    'col2': [123456789.0, 0.0],
@@ -71,7 +71,7 @@ print(df.iat[0, 0])
 print(df.iat[1, 0])
 # 1000000000.0
 
-df.to_csv('./data/34/to_csv_out_float_default.csv')
+df.to_csv('./data/to_csv_out_float_default.csv')
 
 print('%.3f' % 0.123456789)
 # 0.123
@@ -79,7 +79,7 @@ print('%.3f' % 0.123456789)
 print('%.3f' % 123456789)
 # 123456789.000
 
-df.to_csv('./data/34/to_csv_out_float_format_3f.csv', float_format='%.3f')
+df.to_csv('./data/to_csv_out_float_format_3f.csv', float_format='%.3f')
 
 print('%.3e' % 0.123456789)
 # 1.235e-01
@@ -87,7 +87,7 @@ print('%.3e' % 0.123456789)
 print('%.3e' % 123456789)
 # 1.235e+08
 
-df.to_csv('./data/34/to_csv_out_float_format_3e.csv', float_format='%.3e')
+df.to_csv('./data/to_csv_out_float_format_3e.csv', float_format='%.3e')
 
 df['col1'] = df['col1'].map('{:.3f}'.format)
 df['col2'] = df['col2'].map('{:.3e}'.format)
@@ -104,9 +104,9 @@ print(df.dtypes)
 # col3    object
 # dtype: object
 
-df.to_csv('./data/34/to_csv_out_float_format_str.csv')
+df.to_csv('./data/to_csv_out_float_format_str.csv')
 
-df = pd.read_csv('./data/34/to_csv_out_float_format_str.csv', index_col=0)
+df = pd.read_csv('./data/to_csv_out_float_format_str.csv', index_col=0)
 print(df)
 #            col1         col2        col3
 # 0  1.230000e-01  123500000.0  0x075bcd15

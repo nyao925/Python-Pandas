@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/11/sample_pandas_normal.csv').head(3)
+df = pd.read_csv('./data/sample_pandas_normal.csv').head(3)
 print(df)
 #       name  age state  point
 # 0    Alice   24    NY     64
@@ -113,7 +113,7 @@ print(df.drop(columns=['name', 'state']))
 # 1   42     92     NaN      Bob in CA
 # 2   18     70       Z  Charlie in CA
 
-df = pd.read_csv('./data/11/sample_pandas_normal.csv').head(3)
+df = pd.read_csv('./data/sample_pandas_normal.csv').head(3)
 print(df)
 #       name  age state  point
 # 0    Alice   24    NY     64

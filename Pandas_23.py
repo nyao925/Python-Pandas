@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/23/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 print(df)
 #       name  age state  point
 # 0    Alice   24    NY     64
@@ -132,7 +132,7 @@ print(df)
 # 6   Dave   68    TX     70
 
 '''汇总重复的行：groupby（）'''
-df = pd.read_csv('./data/23/sample_pandas_normal.csv')
+df = pd.read_csv('./data/sample_pandas_normal.csv')
 print(df)
 #       name  age state  point
 # 0    Alice   24    NY     64

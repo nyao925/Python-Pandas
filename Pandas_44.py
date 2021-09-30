@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('./data/44/sample_pandas_normal.csv', index_col=0)
+df = pd.read_csv('./data/sample_pandas_normal.csv', index_col=0)
 
 df['sex'] = ['female', np.nan, 'male', 'male', 'female', 'male']
 df['rank'] = [2, 1, 1, 0, 2, 0]

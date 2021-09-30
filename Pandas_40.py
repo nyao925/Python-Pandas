@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/40/train.csv', index_col=0).drop(['Name', 'Ticket', 'SibSp', 'Parch'], axis=1)
+df = pd.read_csv('./data/train.csv', index_col=0).drop(['Name', 'Ticket', 'SibSp', 'Parch'], axis=1)
 
 print(df.head())
 #              Survived  Pclass     Sex   Age     Fare Cabin Embarked

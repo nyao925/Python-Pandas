@@ -1,7 +1,7 @@
 import pandas as pd
 
 '''读取没有标题的CSV'''
-df = pd.read_csv('./data/03/sample.csv')
+df = pd.read_csv('./data/sample.csv')
 print(df)
 #    11  12  13  14
 # 0  21  22  23  24
@@ -10,14 +10,14 @@ print(df)
 print(df.columns)
 # Index(['11', '12', '13', '14'], dtype='object')
 
-df_none = pd.read_csv('./data/03/sample.csv', header=None)
+df_none = pd.read_csv('./data/sample.csv', header=None)
 print(df_none)
 #     0   1   2   3
 # 0  11  12  13  14
 # 1  21  22  23  24
 # 2  31  32  33  34
 
-df_names = pd.read_csv('./data/03/sample.csv', names=('A', 'B', 'C', 'D'))
+df_names = pd.read_csv('./data/sample.csv', names=('A', 'B', 'C', 'D'))
 print(df_names)
 #     A   B   C   D
 # 0  11  12  13  14
@@ -25,27 +25,27 @@ print(df_names)
 # 2  31  32  33  34
 
 '''读取有标题的CSV'''
-df_header = pd.read_csv('./data/03/sample_header.csv')
+df_header = pd.read_csv('./data/sample_header.csv')
 print(df_header)
 #     a   b   c   d
 # 0  11  12  13  14
 # 1  21  22  23  24
 # 2  31  32  33  34
 
-df_header_0 = pd.read_csv('./data/03/sample_header.csv', header=0)
+df_header_0 = pd.read_csv('./data/sample_header.csv', header=0)
 print(df_header_0)
 #     a   b   c   d
 # 0  11  12  13  14
 # 1  21  22  23  24
 # 2  31  32  33  34
 
-df_header_2 = pd.read_csv('./data/03/sample_header.csv', header=2)
+df_header_2 = pd.read_csv('./data/sample_header.csv', header=2)
 print(df_header_2)
 #    21  22  23  24
 # 0  31  32  33  34
 
 '''读取有index的CSV'''
-df_header_index = pd.read_csv('./data/03/sample_header_index.csv')
+df_header_index = pd.read_csv('./data/sample_header_index.csv')
 # print(df_header_index)
 # #   Unnamed: 0   a   b   c   d
 # # 0        ONE  11  12  13  14
@@ -55,7 +55,7 @@ df_header_index = pd.read_csv('./data/03/sample_header_index.csv')
 # print(df_header_index.index)
 # # RangeIndex(start=0, stop=3, step=1)
 
-df_header_index_col = pd.read_csv('./data/03/sample_header_index.csv', index_col=0)
+df_header_index_col = pd.read_csv('./data/sample_header_index.csv', index_col=0)
 print(df_header_index_col)
 #         a   b   c   d
 # ONE    11  12  13  14
@@ -66,28 +66,28 @@ print(df_header_index_col.index)
 # Index(['ONE', 'TWO', 'THREE'], dtype='object')
 
 '''指定（选择）要读取的列'''
-df_none_usecols = pd.read_csv('./data/03/sample.csv', header=None, usecols=[1, 3])
+df_none_usecols = pd.read_csv('./data/sample.csv', header=None, usecols=[1, 3])
 print(df_none_usecols)
 #     1   3
 # 0  12  14
 # 1  22  24
 # 2  32  34
 
-df_none_usecols = pd.read_csv('./data/03/sample.csv', header=None, usecols=[2])
+df_none_usecols = pd.read_csv('./data/sample.csv', header=None, usecols=[2])
 print(df_none_usecols)
 #     2
 # 0  13
 # 1  23
 # 2  33
 
-df_header_usecols = pd.read_csv('./data/03/sample_header.csv', usecols=['a', 'c'])
+df_header_usecols = pd.read_csv('./data/sample_header.csv', usecols=['a', 'c'])
 print(df_header_usecols)
 #     a   c
 # 0  11  13
 # 1  21  23
 # 2  31  33
 
-df_header_usecols = pd.read_csv('./data/03/sample_header.csv',
+df_header_usecols = pd.read_csv('./data/sample_header.csv',
                                 usecols=lambda x: x is not 'b')
 print(df_header_usecols)
 #     a   c   d
@@ -95,7 +95,7 @@ print(df_header_usecols)
 # 1  21  23  24
 # 2  31  33  34
 
-df_header_usecols = pd.read_csv('./data/03/sample_header.csv',
+df_header_usecols = pd.read_csv('./data/sample_header.csv',
                                 usecols=lambda x: x not in ['a', 'c'])
 print(df_header_usecols)
 #     b   d
@@ -103,7 +103,7 @@ print(df_header_usecols)
 # 1  22  24
 # 2  32  34
 
-df_index_usecols = pd.read_csv('./data/03/sample_header_index.csv',
+df_index_usecols = pd.read_csv('./data/sample_header_index.csv',
                                index_col=0, usecols=[0, 1, 3])
 print(df_index_usecols)
 #         a   c
@@ -113,49 +113,49 @@ print(df_index_usecols)
 
 '''跳过（排除）行的读取'''
 ###skiprows
-df_none = pd.read_csv('./data/03/sample.csv', header=None)
+df_none = pd.read_csv('./data/sample.csv', header=None)
 print(df_none)
 #     0   1   2   3
 # 0  11  12  13  14
 # 1  21  22  23  24
 # 2  31  32  33  34
 
-df_none = pd.read_csv('./data/03/sample.csv', header=None, skiprows=2)
+df_none = pd.read_csv('./data/sample.csv', header=None, skiprows=2)
 print(df_none)
 #     0   1   2   3
 # 0  31  32  33  34
 
-df_none_skiprows = pd.read_csv('./data/03/sample.csv', header=None, skiprows=[0, 2])
+df_none_skiprows = pd.read_csv('./data/sample.csv', header=None, skiprows=[0, 2])
 print(df_none_skiprows)
 #     0   1   2   3
 # 0  21  22  23  24
 
-df_none_skiprows = pd.read_csv('./data/03/sample.csv', header=None, skiprows=[1])
+df_none_skiprows = pd.read_csv('./data/sample.csv', header=None, skiprows=[1])
 print(df_none_skiprows)
 #     0   1   2   3
 # 0  11  12  13  14
 # 1  31  32  33
 
-df_none_skiprows = pd.read_csv('./data/03/sample.csv', header=None,
+df_none_skiprows = pd.read_csv('./data/sample.csv', header=None,
                                skiprows=lambda x: x not in [0, 2])
 print(df_none_skiprows)
 #     0   1   2   3
 # 0  11  12  13  14
 # 1  31  32  33  34
 
-df_header_skiprows = pd.read_csv('./data/03/sample_header.csv', skiprows=[1])
+df_header_skiprows = pd.read_csv('./data/sample_header.csv', skiprows=[1])
 print(df_header_skiprows)
 #     a   b   c   d
 # 0  21  22  23  24
 # 1  31  32  33  34
 
-df_header_skiprows = pd.read_csv('./data/03/sample_header.csv', skiprows=[0, 3])
+df_header_skiprows = pd.read_csv('./data/sample_header.csv', skiprows=[0, 3])
 print(df_header_skiprows)
 #    11  12  13  14
 # 0  21  22  23  24
 
 ###skipfooter
-df_none_skipfooter = pd.read_csv('./data/03/sample.csv', header=None,
+df_none_skipfooter = pd.read_csv('./data/sample.csv', header=None,
                                  skipfooter=1, engine='python')
 print(df_none_skipfooter)
 #     0   1   2   3
@@ -163,14 +163,14 @@ print(df_none_skipfooter)
 # 1  21  22  23  24
 
 ###nrows
-df_none_nrows = pd.read_csv('./data/03/sample.csv', header=None, nrows=2)
+df_none_nrows = pd.read_csv('./data/sample.csv', header=None, nrows=2)
 print(df_none_nrows)
 #     0   1   2   3
 # 0  11  12  13  14
 # 1  21  22  23  24
 
 '''通过指定类型dtype进行读取'''
-df_default = pd.read_csv('./data/03/sample_header_index_dtype.csv', index_col=0)
+df_default = pd.read_csv('./data/sample_header_index_dtype.csv', index_col=0)
 print(df_default)
 #        a    b      c  d
 # ONE    1    1  100.0  x
@@ -190,7 +190,7 @@ print(df_default.applymap(type))
 # TWO    <class 'int'>  <class 'int'>  <class 'float'>  <class 'str'>
 # THREE  <class 'int'>  <class 'int'>  <class 'float'>  <class 'str'>
 
-df_str = pd.read_csv('./data/03/sample_header_index_dtype.csv',index_col=0, dtype=str)
+df_str = pd.read_csv('./data/sample_header_index_dtype.csv',index_col=0, dtype=str)
 print(df_str)
 #        a    b    c  d
 # ONE    1  001  100  x
@@ -210,7 +210,7 @@ print(df_str.applymap(type))
 # TWO    <class 'str'>  <class 'str'>  <class 'float'>  <class 'str'>
 # THREE  <class 'str'>  <class 'str'>    <class 'str'>  <class 'str'>
 
-df_object = pd.read_csv('./data/03/sample_header_index_dtype.csv',index_col=0, dtype=object)
+df_object = pd.read_csv('./data/sample_header_index_dtype.csv',index_col=0, dtype=object)
 print(df_object)
 #        a    b    c  d
 # ONE    1  001  100  x
@@ -244,7 +244,7 @@ print(df_str_cast.dtypes)
 # d    object
 # dtype: object
 
-df_str_col = pd.read_csv('./data/03/sample_header_index_dtype.csv',
+df_str_col = pd.read_csv('./data/sample_header_index_dtype.csv',
                          index_col=0, dtype={'b': str, 'c': str})
 print(df_str_col)
 #        a    b    c  d
@@ -259,7 +259,7 @@ print(df_str_col.dtypes)
 # d    object
 # dtype: object
 
-df_str_col_num = pd.read_csv('./data/03/sample_header_index_dtype.csv',
+df_str_col_num = pd.read_csv('./data/sample_header_index_dtype.csv',
                              index_col=0, dtype={2: str, 3: str})
 print(df_str_col_num)
 #        a    b    c  d
@@ -275,7 +275,7 @@ print(df_str_col_num.dtypes)
 # dtype: object
 
 '''NaN缺失值的处理'''
-df_nan = pd.read_csv('./data/03/sample_header_index_nan.csv', index_col=0)
+df_nan = pd.read_csv('./data/sample_header_index_nan.csv', index_col=0)
 print(df_nan)
 #          a   b
 # ONE    NaN NaN
@@ -288,7 +288,7 @@ print(df_nan.isnull())
 # TWO    False  True
 # THREE   True  True
 
-df_nan_set_na = pd.read_csv('./data/03/sample_header_index_nan.csv',index_col=0, na_values='-')
+df_nan_set_na = pd.read_csv('./data/sample_header_index_nan.csv',index_col=0, na_values='-')
 print(df_nan_set_na)
 #         a   b
 # ONE   NaN NaN
@@ -301,7 +301,7 @@ print(df_nan_set_na.isnull())
 # TWO    True  True
 # THREE  True  True
 
-df_nan_set_na_no_keep = pd.read_csv('./data/03/sample_header_index_nan.csv',index_col=0, na_values=['-', 'NaN', 'null'], keep_default_na=False)
+df_nan_set_na_no_keep = pd.read_csv('./data/sample_header_index_nan.csv',index_col=0, na_values=['-', 'NaN', 'null'], keep_default_na=False)
 print(df_nan_set_na_no_keep)
 #          a    b
 # ONE         NaN
@@ -314,7 +314,7 @@ print(df_nan_set_na_no_keep.isnull())
 # TWO     True  False
 # THREE   True  False
 
-df_nan_no_filter = pd.read_csv('./data/03/sample_header_index_nan.csv',index_col=0, na_filter=False)
+df_nan_no_filter = pd.read_csv('./data/sample_header_index_nan.csv',index_col=0, na_filter=False)
 print(df_nan_no_filter)
 #           a    b
 # ONE          NaN
@@ -328,7 +328,7 @@ print(df_nan_no_filter.isnull())
 # THREE  False  False
 
 '''读取使用zip等压缩的文件'''
-df_zip = pd.read_csv('./data/03/sample_header.zip')
+df_zip = pd.read_csv('./data/sample_header.zip')
 print(df_zip)
 #     a   b   c   d
 # 0  11  12  13  14
@@ -336,14 +336,14 @@ print(df_zip)
 # 2  31  32  33  34
 
 '''tsv的读取'''
-df_tsv = pd.read_table('./data/03/sample_header_index.tsv', index_col=0)
+df_tsv = pd.read_table('./data/sample_header_index.tsv', index_col=0)
 print(df_tsv)
 #         a   b   c   d
 # ONE    11  12  13  14
 # TWO    21  22  23  24
 # THREE  31  32  33  34
 
-df_tsv_sep = pd.read_csv('./data/03/sample_header_index.tsv', index_col=0, sep='\t')
+df_tsv_sep = pd.read_csv('./data/sample_header_index.tsv', index_col=0, sep='\t')
 print(df_tsv_sep)
 #         a   b   c   d
 # ONE    11  12  13  14

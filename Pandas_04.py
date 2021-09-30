@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./data/04/sample_pandas_normal.csv', index_col=0)
+df = pd.read_csv('./data/sample_pandas_normal.csv', index_col=0)
 print(df)
 #          age state  point
 # name
@@ -181,7 +181,7 @@ print(type(df.iloc[:, [0, 2]]))
 # <class 'pandas.core.frame.DataFrame'>
 
 '''当行名和列名具有重复值时'''
-df_state = pd.read_csv('./data/04/sample_pandas_normal.csv', index_col=2)
+df_state = pd.read_csv('./data/sample_pandas_normal.csv', index_col=2)
 print(df_state)
 #           name  age  point
 # state

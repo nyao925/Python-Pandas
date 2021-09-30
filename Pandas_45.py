@@ -51,9 +51,9 @@ print(df_nan_corr)
 # E -0.288675 -1.0 -0.424522  1.000000
 
 sns.heatmap(df_corr, vmax=1, vmin=-1, center=0)
-plt.savefig('./data/45/seaborn_heatmap_corr_example.png')
+plt.savefig('./data/seaborn_heatmap_corr_example.png')
 
-df_house = pd.read_csv('./data/45/house_prices_train.csv', index_col=0)
+df_house = pd.read_csv('./data/house_prices_train.csv', index_col=0)
 
 print(df_house.shape)
 # (1460, 80)
@@ -71,4 +71,4 @@ print(df_house_corr.shape)
 
 fig, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(df_house_corr, square=True, vmax=1, vmin=-1, center=0)
-plt.savefig('./data/45/seaborn_heatmap_house_price.png')
+plt.savefig('./data/seaborn_heatmap_house_price.png')

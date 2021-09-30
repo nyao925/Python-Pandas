@@ -149,4 +149,4 @@ print(type(grouped.max()))
 
 ax = grouped.max().plot.bar(rot=0)
 fig = ax.get_figure()
-fig.savefig('./data/16/iris_pandas_groupby_max.png')
+fig.savefig('./data/iris_pandas_groupby_max.png')

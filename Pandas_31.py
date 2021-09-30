@@ -51,7 +51,7 @@ print(type(a_df_f))
 print(a_df_f.dtype)
 # float64
 
-df_multi = pd.read_csv('./data/31/sample_pandas_normal.csv')
+df_multi = pd.read_csv('./data/sample_pandas_normal.csv')
 print(df_multi)
 #       name  age state  point
 # 0    Alice   24    NY     64

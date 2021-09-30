@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('./data/06/sample_header.csv')
+df = pd.read_csv('./data/sample_header.csv')
 print(df)
 #     a   b   c   d
 # 0  11  12  13  14
