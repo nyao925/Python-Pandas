@@ -58,3 +58,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 48_Python列表和数组与numpy.ndarray的区别和使用方法\
 49_Pandas.DataFrame添加列和行（分配、追加等）\
 50_Pandas读取 Excel 文件 (xlsx, xls)\
+51_Pandas (to_excel) 编写 Excel 文件 (xlsx, xls)\
