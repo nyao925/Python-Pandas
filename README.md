@@ -51,11 +51,12 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 41_Pandas使用数据透视表计算每个类别的统计信息\
 42_Pandas字符串中提取正则表达式来生成新列\
 43_Pandas版本的检查（pd.show_versions）\
-44_Pandas将分类变量转换为虚拟变量(get_dummies)\
-45_Pandas.DataFrame计算每列之间的相关系数并用热图可视化\
-46_Pandas,Python,Seaborn热图的生成\
-47_Pandas使用cut和qcut函数进行分箱处理\
-48_Python列表和数组与numpy.ndarray的区别和使用方法\
+44_Pandas将分类变量转换为虚拟变量(get_dummies) \
+45_Pandas.DataFrame计算每列之间的相关系数并用热图可视化 \
+46_Pandas,Python,Seaborn热图的生成 \
+47_Pandas使用cut和qcut函数进行分箱处理 \
+48_Python列表和数组与numpy.ndarray的区别和使用方法 \
 49_Pandas.DataFrame添加列和行（分配、追加等）\
-50_Pandas读取 Excel 文件 (xlsx, xls)\
-51_Pandas (to_excel) 编写 Excel 文件 (xlsx, xls)\
+50_Pandas读取 Excel 文件 (xlsx, xls) \
+51_Pandas (to_excel) 编写 Excel 文件 (xlsx, xls) \
+52_Pandas处理日期和时间列（字符串转换、日期提取等）.md \
