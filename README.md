@@ -61,3 +61,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 51_Pandas (to_excel) 编写 Excel 文件 (xlsx, xls) \
 52_Pandas处理日期和时间列（字符串转换、日期提取等） \
 53_Pandas中的条件替换值（where, mask） \
+54_Pandas将DataFrame、Series转换为字典 (to_dict) \
