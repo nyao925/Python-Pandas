@@ -64,3 +64,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 54_Pandas将DataFrame、Series转换为字典 (to_dict) \
 55_Pandas.DataFrame 转换为 JSON 字符串/文件并保存 (to_json) \
 56_Pandas读取 JSON 字符串/文件 (read_json) \
+57_Pandas中的json_normalize将字典列表转换为DataFrame \ 
