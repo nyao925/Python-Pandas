@@ -67,3 +67,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 57_Pandas中的json_normalize将字典列表转换为DataFrame \
 58_Pandas中mode获取pandas的每一行和列  \
 59_Pandas中使用describe获取每列的汇总统计信息（平均值、标准差等） \
+60_Pandas中是否包含判断缺失值NaN并统计个数 \
