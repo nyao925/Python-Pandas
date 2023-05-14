@@ -68,3 +68,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 58_Pandas中mode获取pandas的每一行和列  \
 59_Pandas中使用describe获取每列的汇总统计信息（平均值、标准差等） \
 60_Pandas中是否包含判断缺失值NaN并统计个数 \
+61_Pandas中将列表存储和处理为 pandas 中的元素 \
