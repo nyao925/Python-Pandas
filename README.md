@@ -72,3 +72,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 62_Pandas有条件地提取 pandas.DataFrame 的行 \
 63_Pandas中数字的四舍五入 \
 64_Pandas进行字符串和数字的相互转换和格式化 \
+65_Pandas显示设置（小数位数、有效数字、最大行/列数等） \
