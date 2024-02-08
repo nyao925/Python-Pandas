@@ -78,3 +78,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 68_Pandas.Series 索引和值的交换 \
 69_Pandas.DataFrame获取行号和列号 \
 70_Pandas中获取最大最小值的行名和列名 \
+71_Pandas.DataFrame排名 \
