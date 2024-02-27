@@ -79,3 +79,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 69_Pandas.DataFrame获取行号和列号 \
 70_Pandas中获取最大最小值的行名和列名 \
 71_Pandas.DataFrame排名 \
+72_Pandas.DataFrame保存并读取带pickle的系列（to_pickle、read_pickle） \
