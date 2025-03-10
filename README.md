@@ -85,3 +85,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 75_pandas.DataFrame 中查看和复制 \
 76_Pandas.DataFrame与Series的相互转换 \
 77_Pandas获取n个最大值和最小值（nlargest, nsmallest） \
+78_Pandasagg()和aggregate()的用法 \
