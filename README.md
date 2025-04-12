@@ -87,3 +87,4 @@ Numpy→Pandas→Machine Learning 这是我的炼丹之道。。。
 77_Pandas获取n个最大值和最小值（nlargest, nsmallest） \
 78_Pandasagg()和aggregate()的用法 \
 79_pandas中的累积和与累积积（cumsum, cumprod, cummax, cummin） \
+80_Pandas如何使用NumPy的函数等（pd.np） \
